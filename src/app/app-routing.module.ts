@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent }
 ];
 
-//Hallo
+
 
 @NgModule({
   exports: [ RouterModule ],
