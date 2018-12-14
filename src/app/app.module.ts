@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { HeroesModule } from './heroes/heroes.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { MessagesModule } from './messages/messages.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MessagesModule } from './messages/messages.module';
     FormsModule,
     DashboardModule,
     MessagesModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
